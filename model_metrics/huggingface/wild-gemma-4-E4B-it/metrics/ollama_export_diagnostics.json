@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-05-15T18:35:16Z",
+  "run": "wild-gemma4-e4b-full-20260514-220502",
+  "ollama_version": "ollama version is 0.24.0",
+  "official_gemma4_e4b_show": "  Model\n    architecture        gemma4    \n    parameters          8.0B      \n    context length      131072    \n    embedding length    2560      \n    quantization        Q4_K_M    \n    requires            0.20.0    \n\n  Capabilities\n    completion    \n    vision        \n    audio         \n    tools         \n    thinking      \n\n  Parameters\n    temperature    1       \n    top_k          64      \n    top_p          0.95    \n\n  License\n    Apache License               \n    Version 2.0, January 2004    \n    ...                          \n\n",
+  "fine_tuned_ollama_status": "not_publishable_yet",
+  "findings": [
+    "Official Ollama gemma4:e4b supports vision, tools, audio, and thinking and runs correctly with explicit think=false/true.",
+    "Fine-tuned PEFT adapter import into Ollama reaches adapter conversion only after renaming adapter_model.safetensors to model.safetensors, then fails with unsupported architecture for Gemma4ForConditionalGeneration.",
+    "Manual split GGUF + mmproj import failed runtime validation earlier; text-only GGUF generated raw special-token output, indicating tokenizer/chat-template metadata mismatch with Ollama official gemma4.",
+    "Direct Safetensors import created an MLX-backed model but could not run on this Linux CUDA host because MLX runtime is unavailable.",
+    "Do not report fine-tuned Ollama performance until an Ollama-compatible Gemma4 adapter or merged multimodal export path is available."
+  ],
+  "corrected_ollama_control_metrics": {
+    "direct_file": "metrics/evaluation_ollama_official_gemma4_e4b_think_api.json",
+    "thinking_high_budget_file": "metrics/evaluation_ollama_official_gemma4_e4b_thinking_high_budget.json"
+  }
+}

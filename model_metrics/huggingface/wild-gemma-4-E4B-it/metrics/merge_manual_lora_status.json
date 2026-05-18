@@ -1,0 +1,10 @@
+{
+  "new_merged": "/home/ubuntu/wild-gemma4-runs/wild-gemma4-e4b-full-20260514-220502/merged_model_manual_lora",
+  "created": "2026-05-15T19:18:14Z",
+  "source_adapter": "/home/ubuntu/wild-gemma4-runs/wild-gemma4-e4b-full-20260514-220502/adapter",
+  "base": "unsloth/gemma-4-E4B-it",
+  "method": "manual LoRA merge: W += (B @ A) * alpha/r for language_model linear modules",
+  "merged_modules": 406,
+  "missing_modules": [],
+  "missing_count": 0
+}

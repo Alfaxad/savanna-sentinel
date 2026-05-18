@@ -1,0 +1,10 @@
+node_modules/
+web/node_modules/
+dist/
+web/dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+data/demo/review/review_actions.jsonl

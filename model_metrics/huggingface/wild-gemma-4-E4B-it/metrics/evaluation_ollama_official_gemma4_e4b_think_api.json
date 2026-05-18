@@ -1,0 +1,122 @@
+{
+  "model": "gemma4:e4b",
+  "notes": "Corrected Ollama eval: direct uses think=false; thinking uses think=true plus <|think|> system prefix; samples use Gemma4 recommended temp/top_p/top_k.",
+  "direct": {
+    "overall": {
+      "rows": 24,
+      "blank_correct_rate": 0.0,
+      "blank_correct_n": 6,
+      "has_answer_rate": 0.0,
+      "has_answer_n": 4,
+      "has_evidence_rate": 0.0,
+      "has_evidence_n": 6,
+      "has_observed_rate": 0.0,
+      "has_observed_n": 6,
+      "has_tool_calls_rate": 0.25,
+      "has_tool_calls_n": 4,
+      "json_valid_rate": 0.9166666666666666,
+      "json_valid_n": 24,
+      "species_any_overlap_rate": 0.3333333333333333,
+      "species_any_overlap_n": 6,
+      "species_set_exact_rate": 0.3333333333333333,
+      "species_set_exact_n": 6,
+      "thinking_rate": 0.0,
+      "thinking_n": 24,
+      "mean_generation_chars": 1293.5416666666667
+    },
+    "by_task": {
+      "phase1": {
+        "rows": 6,
+        "blank_correct_rate": 0.0,
+        "blank_correct_n": 6,
+        "json_valid_rate": 1.0,
+        "json_valid_n": 6,
+        "species_any_overlap_rate": 0.3333333333333333,
+        "species_any_overlap_n": 6,
+        "species_set_exact_rate": 0.3333333333333333,
+        "species_set_exact_n": 6,
+        "thinking_rate": 0.0,
+        "thinking_n": 6,
+        "mean_generation_chars": 443.8333333333333
+      },
+      "phase2": {
+        "rows": 6,
+        "json_valid_rate": 1.0,
+        "json_valid_n": 6,
+        "thinking_rate": 0.0,
+        "thinking_n": 6,
+        "mean_generation_chars": 382.3333333333333
+      },
+      "report": {
+        "rows": 6,
+        "has_evidence_rate": 0.0,
+        "has_evidence_n": 6,
+        "has_observed_rate": 0.0,
+        "has_observed_n": 6,
+        "json_valid_rate": 1.0,
+        "json_valid_n": 6,
+        "thinking_rate": 0.0,
+        "thinking_n": 6,
+        "mean_generation_chars": 2552.0
+      },
+      "tool": {
+        "rows": 6,
+        "has_answer_rate": 0.0,
+        "has_answer_n": 4,
+        "has_tool_calls_rate": 0.25,
+        "has_tool_calls_n": 4,
+        "json_valid_rate": 0.6666666666666666,
+        "json_valid_n": 6,
+        "thinking_rate": 0.0,
+        "thinking_n": 6,
+        "mean_generation_chars": 1796.0
+      }
+    },
+    "predictions_path": "/home/ubuntu/wild-gemma4-runs/wild-gemma4-e4b-full-20260514-220502/metrics/predictions_ollama_official_gemma4_e4b_think_api_direct.jsonl"
+  },
+  "thinking": {
+    "overall": {
+      "rows": 8,
+      "json_valid_rate": 0.0,
+      "json_valid_n": 8,
+      "thinking_rate": 1.0,
+      "thinking_n": 8,
+      "mean_generation_chars": 0.0
+    },
+    "by_task": {
+      "phase1": {
+        "rows": 2,
+        "json_valid_rate": 0.0,
+        "json_valid_n": 2,
+        "thinking_rate": 1.0,
+        "thinking_n": 2,
+        "mean_generation_chars": 0.0
+      },
+      "phase2": {
+        "rows": 2,
+        "json_valid_rate": 0.0,
+        "json_valid_n": 2,
+        "thinking_rate": 1.0,
+        "thinking_n": 2,
+        "mean_generation_chars": 0.0
+      },
+      "report": {
+        "rows": 2,
+        "json_valid_rate": 0.0,
+        "json_valid_n": 2,
+        "thinking_rate": 1.0,
+        "thinking_n": 2,
+        "mean_generation_chars": 0.0
+      },
+      "tool": {
+        "rows": 2,
+        "json_valid_rate": 0.0,
+        "json_valid_n": 2,
+        "thinking_rate": 1.0,
+        "thinking_n": 2,
+        "mean_generation_chars": 0.0
+      }
+    },
+    "predictions_path": "/home/ubuntu/wild-gemma4-runs/wild-gemma4-e4b-full-20260514-220502/metrics/predictions_ollama_official_gemma4_e4b_think_api_thinking.jsonl"
+  }
+}

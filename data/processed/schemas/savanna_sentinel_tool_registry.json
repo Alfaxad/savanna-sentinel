@@ -1,0 +1,184 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "query_detections",
+      "description": "Search labeled or predicted detections by species, site, date, confidence, and data split.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "species": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "date_start": {
+            "type": "string"
+          },
+          "date_end": {
+            "type": "string"
+          },
+          "site_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "min_confidence": {
+            "type": "number"
+          },
+          "source": {
+            "type": "string",
+            "enum": [
+              "consensus",
+              "gold",
+              "prediction"
+            ]
+          },
+          "limit": {
+            "type": "integer",
+            "default": 100
+          },
+          "group_by": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_camera_effort",
+      "description": "Return camera active periods and active camera-days for sites/date ranges.",
+      "parameters": {
+        "type": "object",
+        "required": [
+          "date_start",
+          "date_end"
+        ],
+        "properties": {
+          "date_start": {
+            "type": "string"
+          },
+          "date_end": {
+            "type": "string"
+          },
+          "site_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "extract_environment",
+      "description": "Retrieve environmental features for sites across a date range.",
+      "parameters": {
+        "type": "object",
+        "required": [
+          "date_start",
+          "date_end"
+        ],
+        "properties": {
+          "site_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "date_start": {
+            "type": "string"
+          },
+          "date_end": {
+            "type": "string"
+          },
+          "layers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "compare_to_baseline",
+      "description": "Compare a metric to site/species/month historical baselines.",
+      "parameters": {
+        "type": "object",
+        "required": [
+          "metric",
+          "date_start",
+          "date_end"
+        ],
+        "properties": {
+          "metric": {
+            "type": "string"
+          },
+          "species": {
+            "type": "string"
+          },
+          "site_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "date_start": {
+            "type": "string"
+          },
+          "date_end": {
+            "type": "string"
+          },
+          "baseline_mode": {
+            "type": "string",
+            "enum": [
+              "same_month",
+              "previous_30d",
+              "seasonal",
+              "all_history"
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "retrieve_evidence_images",
+      "description": "Retrieve image thumbnails and metadata for event evidence cards.",
+      "parameters": {
+        "type": "object",
+        "required": [
+          "capture_event_ids"
+        ],
+        "properties": {
+          "capture_event_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "redact_humans": {
+            "type": "boolean",
+            "default": true
+          }
+        }
+      }
+    }
+  }
+]

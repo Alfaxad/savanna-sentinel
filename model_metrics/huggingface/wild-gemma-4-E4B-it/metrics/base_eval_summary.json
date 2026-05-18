@@ -1,0 +1,67 @@
+{
+  "direct": {
+    "overall": {
+      "rows": 40,
+      "blank_correct_rate": 0.0,
+      "blank_correct_n": 9,
+      "has_evidence_rate": 0.0,
+      "has_evidence_n": 14,
+      "has_observed_rate": 0.0,
+      "has_observed_n": 14,
+      "json_valid_rate": 0.8,
+      "json_valid_n": 40,
+      "species_any_overlap_rate": 0.2222222222222222,
+      "species_any_overlap_n": 9,
+      "species_set_exact_rate": 0.2222222222222222,
+      "species_set_exact_n": 9,
+      "thinking_rate": 0.0,
+      "thinking_n": 40,
+      "mean_generation_chars": 900.725
+    },
+    "by_task": {
+      "phase1": {
+        "rows": 9,
+        "blank_correct_rate": 0.0,
+        "blank_correct_n": 9,
+        "json_valid_rate": 1.0,
+        "json_valid_n": 9,
+        "species_any_overlap_rate": 0.2222222222222222,
+        "species_any_overlap_n": 9,
+        "species_set_exact_rate": 0.2222222222222222,
+        "species_set_exact_n": 9,
+        "thinking_rate": 0.0,
+        "thinking_n": 9,
+        "mean_generation_chars": 450.8888888888889
+      },
+      "phase2": {
+        "rows": 9,
+        "json_valid_rate": 1.0,
+        "json_valid_n": 9,
+        "thinking_rate": 0.0,
+        "thinking_n": 9,
+        "mean_generation_chars": 326.0
+      },
+      "report": {
+        "rows": 14,
+        "has_evidence_rate": 0.0,
+        "has_evidence_n": 14,
+        "has_observed_rate": 0.0,
+        "has_observed_n": 14,
+        "json_valid_rate": 1.0,
+        "json_valid_n": 14,
+        "thinking_rate": 0.0,
+        "thinking_n": 14,
+        "mean_generation_chars": 1799.4285714285713
+      },
+      "tool": {
+        "rows": 8,
+        "json_valid_rate": 0.0,
+        "json_valid_n": 8,
+        "thinking_rate": 0.0,
+        "thinking_n": 8,
+        "mean_generation_chars": 480.625
+      }
+    },
+    "predictions_path": "/home/ubuntu/wild-gemma4-runs/wild-gemma4-e4b-full-20260514-220502/metrics/predictions_base_direct.jsonl"
+  }
+}

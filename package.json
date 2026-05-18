@@ -1,0 +1,16 @@
+{
+  "name": "savanna-sentinel",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "web"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w web",
+    "api": "npm run api -w web",
+    "web": "npm run dev:web -w web",
+    "build": "npm run build -w web",
+    "preview": "npm run preview -w web",
+    "test:local": "npm run build -w web"
+  }
+}

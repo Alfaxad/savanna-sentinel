@@ -1,0 +1,151 @@
+{
+  "model": "wild-gemma4-manual-combined-q4-officialmeta",
+  "label": "ollama_manual_combined_q4_officialmeta_redo",
+  "scorer": "robust_schema_v2_ollama",
+  "direct": {
+    "overall": {
+      "rows": 40,
+      "blank_correct_rate": 0.8888888888888888,
+      "blank_correct_n": 9,
+      "has_evidence_rate": 0.25,
+      "has_evidence_n": 8,
+      "has_observed_rate": 0.25,
+      "has_observed_n": 8,
+      "json_valid_rate": 0.725,
+      "json_valid_n": 40,
+      "review_correct_rate": 1.0,
+      "review_correct_n": 2,
+      "species_any_overlap_rate": 0.36363636363636365,
+      "species_any_overlap_n": 11,
+      "species_set_exact_rate": 0.36363636363636365,
+      "species_set_exact_n": 11,
+      "thinking_rate": 0.0,
+      "thinking_n": 40,
+      "mean_generation_chars": 765.075
+    },
+    "by_task": {
+      "phase1": {
+        "rows": 11,
+        "blank_correct_rate": 0.8888888888888888,
+        "blank_correct_n": 9,
+        "json_valid_rate": 1.0,
+        "json_valid_n": 11,
+        "species_any_overlap_rate": 0.36363636363636365,
+        "species_any_overlap_n": 11,
+        "species_set_exact_rate": 0.36363636363636365,
+        "species_set_exact_n": 11,
+        "thinking_rate": 0.0,
+        "thinking_n": 11,
+        "mean_generation_chars": 676.3636363636364
+      },
+      "phase2": {
+        "rows": 10,
+        "json_valid_rate": 1.0,
+        "json_valid_n": 10,
+        "review_correct_rate": 1.0,
+        "review_correct_n": 2,
+        "thinking_rate": 0.0,
+        "thinking_n": 10,
+        "mean_generation_chars": 271.3
+      },
+      "report": {
+        "rows": 10,
+        "has_evidence_rate": 0.25,
+        "has_evidence_n": 8,
+        "has_observed_rate": 0.25,
+        "has_observed_n": 8,
+        "json_valid_rate": 0.8,
+        "json_valid_n": 10,
+        "thinking_rate": 0.0,
+        "thinking_n": 10,
+        "mean_generation_chars": 1776.3
+      },
+      "tool": {
+        "rows": 9,
+        "json_valid_rate": 0.0,
+        "json_valid_n": 9,
+        "thinking_rate": 0.0,
+        "thinking_n": 9,
+        "mean_generation_chars": 298.55555555555554
+      }
+    },
+    "predictions_path": "/home/ubuntu/wild-gemma4-runs/wild-gemma4-e4b-full-20260514-220502/metrics/predictions_ollama_manual_combined_q4_officialmeta_redo_direct.jsonl"
+  },
+  "thinking": {
+    "overall": {
+      "rows": 24,
+      "blank_correct_rate": 1.0,
+      "blank_correct_n": 2,
+      "has_answer_rate": 0.0,
+      "has_answer_n": 1,
+      "has_evidence_rate": 0.16666666666666666,
+      "has_evidence_n": 6,
+      "has_observed_rate": 0.16666666666666666,
+      "has_observed_n": 6,
+      "has_tool_calls_rate": 0.0,
+      "has_tool_calls_n": 1,
+      "json_valid_rate": 0.7916666666666666,
+      "json_valid_n": 24,
+      "review_correct_rate": 1.0,
+      "review_correct_n": 2,
+      "species_any_overlap_rate": 0.5,
+      "species_any_overlap_n": 6,
+      "species_set_exact_rate": 0.5,
+      "species_set_exact_n": 6,
+      "thinking_rate": 1.0,
+      "thinking_n": 24,
+      "mean_generation_chars": 933.75
+    },
+    "by_task": {
+      "phase1": {
+        "rows": 6,
+        "blank_correct_rate": 1.0,
+        "blank_correct_n": 2,
+        "json_valid_rate": 1.0,
+        "json_valid_n": 6,
+        "species_any_overlap_rate": 0.5,
+        "species_any_overlap_n": 6,
+        "species_set_exact_rate": 0.5,
+        "species_set_exact_n": 6,
+        "thinking_rate": 1.0,
+        "thinking_n": 6,
+        "mean_generation_chars": 551.1666666666666
+      },
+      "phase2": {
+        "rows": 6,
+        "json_valid_rate": 1.0,
+        "json_valid_n": 6,
+        "review_correct_rate": 1.0,
+        "review_correct_n": 2,
+        "thinking_rate": 1.0,
+        "thinking_n": 6,
+        "mean_generation_chars": 265.5
+      },
+      "report": {
+        "rows": 6,
+        "has_evidence_rate": 0.16666666666666666,
+        "has_evidence_n": 6,
+        "has_observed_rate": 0.16666666666666666,
+        "has_observed_n": 6,
+        "json_valid_rate": 1.0,
+        "json_valid_n": 6,
+        "thinking_rate": 1.0,
+        "thinking_n": 6,
+        "mean_generation_chars": 2099.0
+      },
+      "tool": {
+        "rows": 6,
+        "has_answer_rate": 0.0,
+        "has_answer_n": 1,
+        "has_tool_calls_rate": 0.0,
+        "has_tool_calls_n": 1,
+        "json_valid_rate": 0.16666666666666666,
+        "json_valid_n": 6,
+        "thinking_rate": 1.0,
+        "thinking_n": 6,
+        "mean_generation_chars": 819.3333333333334
+      }
+    },
+    "predictions_path": "/home/ubuntu/wild-gemma4-runs/wild-gemma4-e4b-full-20260514-220502/metrics/predictions_ollama_manual_combined_q4_officialmeta_redo_thinking.jsonl"
+  }
+}

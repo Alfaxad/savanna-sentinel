@@ -1,0 +1,9 @@
+{
+  "stage": "lora_adapter_gguf_prefix_fixed_attempt",
+  "patched_adapter": "/home/ubuntu/wild-gemma4-runs/wild-gemma4-e4b-full-20260514-220502/adapter_for_gguf_prefix_fixed",
+  "path": "/home/ubuntu/wild-gemma4-runs/wild-gemma4-e4b-full-20260514-220502/ollama_adapter_gguf/wild-gemma4-lora-adapter-prefix-fixed.f16.gguf",
+  "exists": false,
+  "bytes": null,
+  "log": "/home/ubuntu/convert_wild_lora_adapter_gguf_prefix_fixed.log",
+  "updated_at": "2026-05-15T20:09:17Z"
+}

@@ -1,0 +1,456 @@
+{
+  "schema_version": "savanna_sentinel_species_profiles_v1",
+  "source_note": "Curated educational background for public demo use. These profiles are general species context, not evidence for any specific camera-trap event.",
+  "profiles": {
+    "aardvark": {
+      "display_name": "Aardvark",
+      "category": "nocturnal insectivore",
+      "facts": [
+        "Aardvarks use powerful claws to open termite mounds and ant nests.",
+        "They are mostly nocturnal, so camera traps often record them at night."
+      ],
+      "ecological_role": "Aardvarks disturb soil while digging, creating burrows and foraging patches used by other animals."
+    },
+    "aardwolf": {
+      "display_name": "Aardwolf",
+      "category": "termite-feeding hyena relative",
+      "facts": [
+        "Aardwolves are related to hyenas but mainly eat termites rather than large prey.",
+        "They often forage alone and at night."
+      ],
+      "ecological_role": "Aardwolves help regulate termite populations without behaving like large carnivores."
+    },
+    "baboon": {
+      "display_name": "Baboon",
+      "category": "omnivorous primate",
+      "facts": [
+        "Baboons live in social troops with complex dominance and family relationships.",
+        "They eat a wide range of foods, including grasses, fruits, seeds, insects, and small animals."
+      ],
+      "ecological_role": "Baboons move seeds, disturb vegetation, and connect woodland and grassland food webs."
+    },
+    "batEaredFox": {
+      "display_name": "Bat-eared fox",
+      "category": "small insectivore",
+      "facts": [
+        "Bat-eared foxes use their large ears to detect insects moving underground or in grass.",
+        "Termites and beetles are major parts of their diet."
+      ],
+      "ecological_role": "They help control insect populations in open savanna habitats."
+    },
+    "buffalo": {
+      "display_name": "African buffalo",
+      "category": "large grazer",
+      "facts": [
+        "African buffalo often move in groups and can form very large herds.",
+        "Adults are known for strong group defense when threatened by predators."
+      ],
+      "ecological_role": "Buffalo are heavy grazers that shape grass structure and provide prey for large predators."
+    },
+    "bushbuck": {
+      "display_name": "Bushbuck",
+      "category": "small antelope",
+      "facts": [
+        "Bushbuck are usually solitary or seen in small numbers.",
+        "They often stay near cover, including thickets, river edges, and woodland patches."
+      ],
+      "ecological_role": "Bushbuck browse vegetation and are prey for medium and large carnivores."
+    },
+    "caracal": {
+      "display_name": "Caracal",
+      "category": "medium cat",
+      "facts": [
+        "Caracals have long black ear tufts and are agile hunters.",
+        "They can leap high to catch birds and other small prey."
+      ],
+      "ecological_role": "Caracals help regulate small mammal and bird populations."
+    },
+    "cheetah": {
+      "display_name": "Cheetah",
+      "category": "large carnivore",
+      "facts": [
+        "Cheetahs are built for short bursts of speed in open habitats.",
+        "They rely heavily on sight and daylight hunting compared with many other large cats."
+      ],
+      "ecological_role": "Cheetahs influence gazelle and other small antelope populations through predation."
+    },
+    "civet": {
+      "display_name": "African civet",
+      "category": "nocturnal omnivore",
+      "facts": [
+        "Civets are mostly nocturnal and have a mixed diet of fruit, insects, small animals, and carrion.",
+        "Their spotted coat can make them difficult to identify in night images."
+      ],
+      "ecological_role": "Civets disperse seeds and scavenge, linking plant and animal food webs."
+    },
+    "dikDik": {
+      "display_name": "Dik-dik",
+      "category": "small antelope",
+      "facts": [
+        "Dik-diks are tiny antelopes often associated with scrub and bush cover.",
+        "Pairs can maintain small territories."
+      ],
+      "ecological_role": "Dik-diks browse low vegetation and provide prey for small and medium predators."
+    },
+    "eland": {
+      "display_name": "Eland",
+      "category": "large antelope",
+      "facts": [
+        "Eland are among the largest antelope species.",
+        "They browse and graze, allowing them to use a wide range of habitats."
+      ],
+      "ecological_role": "Eland move nutrients across the landscape and affect both grasses and woody plants."
+    },
+    "elephant": {
+      "display_name": "African elephant",
+      "category": "megaherbivore",
+      "facts": [
+        "Elephants can reshape habitats by pushing over trees, opening paths, and digging for water.",
+        "Family groups are led by experienced adult females."
+      ],
+      "ecological_role": "Elephants are ecosystem engineers that alter vegetation structure and create resources for other species."
+    },
+    "gazelle": {
+      "display_name": "Gazelle",
+      "category": "small to medium antelope",
+      "facts": [
+        "Gazelles are agile grazers and browsers that are often seen in open grasslands.",
+        "Their alert behavior and speed help them avoid predators."
+      ],
+      "ecological_role": "Gazelles are important grazers and common prey for cheetahs, hyenas, and lions."
+    },
+    "gazelleGrants": {
+      "display_name": "Grant's gazelle",
+      "category": "medium antelope",
+      "facts": [
+        "Grant's gazelles can tolerate dry conditions and use open grassland and bushland.",
+        "They are generally larger and more robust than Thomson's gazelles."
+      ],
+      "ecological_role": "Grant's gazelles graze and browse while serving as prey for large carnivores."
+    },
+    "gazelleThomsons": {
+      "display_name": "Thomson's gazelle",
+      "category": "small antelope",
+      "facts": [
+        "Thomson's gazelles are fast, alert antelopes common in open Serengeti grasslands.",
+        "They often form groups and can be difficult to distinguish from other gazelles in distant images."
+      ],
+      "ecological_role": "They are key grazers and a frequent prey species for cheetahs and other predators."
+    },
+    "genet": {
+      "display_name": "Genet",
+      "category": "small nocturnal carnivore",
+      "facts": [
+        "Genets are slender, spotted mammals that are active mostly at night.",
+        "They climb well and hunt small animals, insects, and birds."
+      ],
+      "ecological_role": "Genets help regulate small prey populations and may disperse some seeds."
+    },
+    "giraffe": {
+      "display_name": "Giraffe",
+      "category": "large browser",
+      "facts": [
+        "Giraffes use long necks and prehensile tongues to feed high in trees.",
+        "Their browsing can shape the growth of acacia and other woody plants."
+      ],
+      "ecological_role": "Giraffes influence tree structure and create browsing pressure above the reach of most herbivores."
+    },
+    "guineaFowl": {
+      "display_name": "Guinea fowl",
+      "category": "ground bird",
+      "facts": [
+        "Guinea fowl usually forage on the ground in groups.",
+        "They eat seeds, insects, and other small food items."
+      ],
+      "ecological_role": "They help move seeds and control insects while providing prey for carnivores and raptors."
+    },
+    "hare": {
+      "display_name": "Hare",
+      "category": "small herbivore",
+      "facts": [
+        "Hares rely on speed and camouflage rather than burrows for protection.",
+        "They are often more active around dusk, night, or early morning."
+      ],
+      "ecological_role": "Hares graze and browse low vegetation and are prey for many predators."
+    },
+    "hartebeest": {
+      "display_name": "Hartebeest",
+      "category": "medium antelope",
+      "facts": [
+        "Hartebeest have a long face and sloping back that make their silhouette distinctive.",
+        "They are adapted to open grassland and can be very alert."
+      ],
+      "ecological_role": "Hartebeest graze grasses and contribute to the prey base for large carnivores."
+    },
+    "hippopotamus": {
+      "display_name": "Hippopotamus",
+      "category": "large semi-aquatic herbivore",
+      "facts": [
+        "Hippos spend much of the day in or near water and often graze on land at night.",
+        "Despite their bulky shape, they can move quickly over short distances."
+      ],
+      "ecological_role": "Hippos transfer nutrients between land and water through grazing and dung."
+    },
+    "honeyBadger": {
+      "display_name": "Honey badger",
+      "category": "omnivorous mustelid",
+      "facts": [
+        "Honey badgers are strong diggers and have a reputation for bold defensive behavior.",
+        "They eat insects, reptiles, small mammals, eggs, and plant foods."
+      ],
+      "ecological_role": "Honey badgers disturb soil and regulate small prey populations."
+    },
+    "hyena": {
+      "display_name": "Hyena",
+      "category": "large carnivore and scavenger",
+      "facts": [
+        "Hyenas can hunt and scavenge, making them flexible carnivores.",
+        "Their strong jaws allow them to process carcasses efficiently."
+      ],
+      "ecological_role": "Hyenas recycle nutrients through scavenging and also act as major predators."
+    },
+    "hyenaSpotted": {
+      "display_name": "Spotted hyena",
+      "category": "large carnivore",
+      "facts": [
+        "Spotted hyenas live in social groups called clans.",
+        "They are skilled hunters as well as scavengers."
+      ],
+      "ecological_role": "Spotted hyenas are major predators and scavengers that help clean carcasses from the landscape."
+    },
+    "hyenaStriped": {
+      "display_name": "Striped hyena",
+      "category": "carnivore and scavenger",
+      "facts": [
+        "Striped hyenas are generally more solitary than spotted hyenas.",
+        "They are often active at night and frequently scavenge."
+      ],
+      "ecological_role": "Striped hyenas help recycle nutrients by consuming carrion and organic waste."
+    },
+    "impala": {
+      "display_name": "Impala",
+      "category": "medium antelope",
+      "facts": [
+        "Impalas are agile antelopes that can leap and change direction quickly.",
+        "They both graze and browse, which helps them use seasonal food resources."
+      ],
+      "ecological_role": "Impalas are important herbivores and a common prey species for large predators."
+    },
+    "jackal": {
+      "display_name": "Jackal",
+      "category": "small carnivore",
+      "facts": [
+        "Jackals are opportunistic feeders that hunt small prey and scavenge.",
+        "They are often active at dawn, dusk, and night."
+      ],
+      "ecological_role": "Jackals help control small animal populations and recycle carrion."
+    },
+    "koriBustard": {
+      "display_name": "Kori bustard",
+      "category": "large ground bird",
+      "facts": [
+        "Kori bustards are among the heaviest flying birds.",
+        "They spend much of their time walking through open grassland while foraging."
+      ],
+      "ecological_role": "They consume insects, seeds, and small animals, linking grassland plant and insect communities."
+    },
+    "leopard": {
+      "display_name": "Leopard",
+      "category": "large cat",
+      "facts": [
+        "Leopards are adaptable, stealthy cats that often use cover and trees.",
+        "Their rosette-patterned coat helps them blend into vegetation and shadow."
+      ],
+      "ecological_role": "Leopards regulate prey populations across woodland, riverine, and savanna habitats."
+    },
+    "lion": {
+      "display_name": "Lion",
+      "category": "large carnivore",
+      "facts": [
+        "Lions are social cats that live in groups called prides.",
+        "Cooperative hunting helps lions take larger prey than most solitary cats can handle."
+      ],
+      "ecological_role": "Lions are apex predators that influence herbivore behavior and carcass availability."
+    },
+    "lionFemale": {
+      "display_name": "Lioness",
+      "category": "large carnivore",
+      "facts": [
+        "Lionesses often do much of the hunting for a pride.",
+        "They cooperate in hunting, cub care, and territorial defense."
+      ],
+      "ecological_role": "Lionesses are central to pride survival and help regulate large herbivore populations."
+    },
+    "lionMale": {
+      "display_name": "Male lion",
+      "category": "large carnivore",
+      "facts": [
+        "Adult male lions are recognized by their mane, which varies in size and color.",
+        "Males help defend pride territories and access to breeding groups."
+      ],
+      "ecological_role": "Male lions shape pride structure and contribute to apex predator pressure on large herbivores."
+    },
+    "mongoose": {
+      "display_name": "Mongoose",
+      "category": "small carnivore",
+      "facts": [
+        "Mongooses are quick, alert mammals that feed on insects, small vertebrates, and eggs.",
+        "Some mongoose species live socially, while others are more solitary."
+      ],
+      "ecological_role": "Mongooses help regulate insects, reptiles, and small mammal populations."
+    },
+    "ostrich": {
+      "display_name": "Ostrich",
+      "category": "large flightless bird",
+      "facts": [
+        "Ostriches are flightless but can run very fast across open ground.",
+        "They feed on plants, seeds, insects, and small animals."
+      ],
+      "ecological_role": "Ostriches disperse seeds and influence grassland foraging dynamics."
+    },
+    "otherBird": {
+      "display_name": "Unspecified bird",
+      "category": "bird",
+      "facts": [
+        "Camera traps often record birds incidentally as they forage or pass through a site.",
+        "A generic bird label means the system should avoid overclaiming a precise species."
+      ],
+      "ecological_role": "Birds can disperse seeds, consume insects, scavenge, or serve as prey depending on species."
+    },
+    "porcupine": {
+      "display_name": "Porcupine",
+      "category": "nocturnal herbivore",
+      "facts": [
+        "Porcupines are mostly nocturnal and protected by sharp quills.",
+        "They gnaw roots, bark, tubers, and other plant material."
+      ],
+      "ecological_role": "Porcupines influence plant communities through digging and feeding."
+    },
+    "reedbuck": {
+      "display_name": "Reedbuck",
+      "category": "medium antelope",
+      "facts": [
+        "Reedbuck are often associated with grassland near cover or wetter areas.",
+        "They may crouch or hide before fleeing from disturbance."
+      ],
+      "ecological_role": "Reedbuck graze grasses and provide prey for medium and large predators."
+    },
+    "reptiles": {
+      "display_name": "Reptile",
+      "category": "reptile group",
+      "facts": [
+        "A reptile label may include lizards, snakes, or other reptiles depending on the image.",
+        "Reptiles are often more active when temperatures allow movement and hunting."
+      ],
+      "ecological_role": "Reptiles can be predators, prey, scavengers, and seed dispersal partners depending on species."
+    },
+    "rhinoceros": {
+      "display_name": "Rhinoceros",
+      "category": "large herbivore",
+      "facts": [
+        "Rhinoceroses are large herbivores with distinctive horns made of keratin.",
+        "They can create trails, browsing patches, and dung middens."
+      ],
+      "ecological_role": "Rhinos shape vegetation and nutrient distribution through feeding and movement."
+    },
+    "rodents": {
+      "display_name": "Rodent",
+      "category": "small mammal group",
+      "facts": [
+        "A rodent label may cover several small mammal species that are hard to identify in camera-trap images.",
+        "Many rodents are active at night and rely on cover."
+      ],
+      "ecological_role": "Rodents disperse seeds, aerate soil, and provide prey for many carnivores and birds."
+    },
+    "secretaryBird": {
+      "display_name": "Secretary bird",
+      "category": "large raptor-like ground bird",
+      "facts": [
+        "Secretary birds walk long distances through grassland while hunting.",
+        "They are known for striking prey such as insects, reptiles, and small mammals with their legs."
+      ],
+      "ecological_role": "Secretary birds help regulate reptiles, insects, and small vertebrates in open habitats."
+    },
+    "serval": {
+      "display_name": "Serval",
+      "category": "medium cat",
+      "facts": [
+        "Servals have long legs and large ears that help them detect prey in tall grass.",
+        "They often hunt rodents and birds with quick pouncing attacks."
+      ],
+      "ecological_role": "Servals help regulate small mammal and bird populations."
+    },
+    "topi": {
+      "display_name": "Topi",
+      "category": "medium antelope",
+      "facts": [
+        "Topi are fast antelopes often found in open grassland.",
+        "They sometimes stand on termite mounds or raised ground to watch for danger."
+      ],
+      "ecological_role": "Topi graze grasses and are part of the prey base for large carnivores."
+    },
+    "vervetMonkey": {
+      "display_name": "Vervet monkey",
+      "category": "omnivorous primate",
+      "facts": [
+        "Vervet monkeys live in social groups and use alarm calls for different threats.",
+        "They eat fruits, leaves, seeds, insects, and other small foods."
+      ],
+      "ecological_role": "Vervets disperse seeds and connect woodland, riverine, and savanna habitats."
+    },
+    "warthog": {
+      "display_name": "Warthog",
+      "category": "grazing pig",
+      "facts": [
+        "Warthogs often kneel on their front legs while grazing short grass.",
+        "They frequently use burrows for shelter, sometimes backing in for protection."
+      ],
+      "ecological_role": "Warthogs graze, dig, and provide prey for large carnivores."
+    },
+    "waterbuck": {
+      "display_name": "Waterbuck",
+      "category": "large antelope",
+      "facts": [
+        "Waterbuck are often associated with areas near water or denser cover.",
+        "They have a shaggy coat and are larger than many savanna antelopes."
+      ],
+      "ecological_role": "Waterbuck graze and browse near wetter habitats and support predator food webs."
+    },
+    "wildcat": {
+      "display_name": "African wildcat",
+      "category": "small cat",
+      "facts": [
+        "African wildcats are small, stealthy hunters and ancestors of domestic cats.",
+        "They mainly hunt rodents, birds, reptiles, and insects."
+      ],
+      "ecological_role": "Wildcats help regulate small prey populations."
+    },
+    "wildebeest": {
+      "display_name": "Wildebeest",
+      "category": "large grazer",
+      "facts": [
+        "Wildebeest are famous for seasonal movements across the Serengeti ecosystem.",
+        "Large groups can strongly influence grass height and nutrient cycling."
+      ],
+      "ecological_role": "Wildebeest are major grazers and a key prey species for lions, hyenas, and other predators."
+    },
+    "zebra": {
+      "display_name": "Plains zebra",
+      "category": "large grazer",
+      "facts": [
+        "Zebras have stripe patterns that are unique to individuals.",
+        "They often graze alongside wildebeest and other herbivores."
+      ],
+      "ecological_role": "Zebras crop coarse grasses and help maintain grazing lawns used by other herbivores."
+    },
+    "zorilla": {
+      "display_name": "Zorilla",
+      "category": "small nocturnal carnivore",
+      "facts": [
+        "Zorillas are also known as striped polecats.",
+        "They can release a strong-smelling defensive spray when threatened."
+      ],
+      "ecological_role": "Zorillas eat insects and small animals, contributing to small-prey regulation."
+    }
+  }
+}

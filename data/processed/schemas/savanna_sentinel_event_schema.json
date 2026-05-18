@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "savanna_sentinel_event_v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "capture_event_id",
+    "event",
+    "detections",
+    "review",
+    "grounding"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "savanna_sentinel_event_v1"
+    },
+    "capture_event_id": {
+      "type": "string"
+    },
+    "event": {
+      "type": "object"
+    },
+    "detections": {
+      "type": "array"
+    },
+    "review": {
+      "type": "object"
+    },
+    "grounding": {
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "stage": "text_lora_adapter_gguf_attempt",
+  "patched_adapter": "/home/ubuntu/wild-gemma4-runs/wild-gemma4-e4b-full-20260514-220502/adapter_for_gguf_text_lora_only",
+  "path": "/home/ubuntu/wild-gemma4-runs/wild-gemma4-e4b-full-20260514-220502/ollama_adapter_gguf/wild-gemma4-text-lora-adapter.f16.gguf",
+  "exists": true,
+  "bytes": 146840960,
+  "log": "/home/ubuntu/convert_wild_text_lora_adapter_gguf.log",
+  "warning": "vision_tower_lora_weights_omitted_for_ollama_adapter_attempt",
+  "updated_at": "2026-05-15T20:10:41Z"
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "savanna_sentinel_report_v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "report_type",
+    "scope",
+    "observed",
+    "measured",
+    "inferred",
+    "uncertainty",
+    "evidence"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "savanna_sentinel_report_v1"
+    },
+    "report_type": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "observed": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "measured": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "inferred": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "uncertainty": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence": {
+      "type": "array"
+    }
+  }
+}

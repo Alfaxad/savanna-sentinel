@@ -1,0 +1,14 @@
+{
+  "errors": [
+    {
+      "quantization": "q4_k_m",
+      "error": "RuntimeError('Unsloth: GGUF conversion failed: Failed during loading/introspection of original script: Failed to execute module convert_hf_to_gguf_original_gguf_6hn6uox7 from /home/ubuntu/.unsloth/llama.cpp/original_gguf_6hn6uox7.py')"
+    },
+    {
+      "quantization": "q8_0",
+      "error": "RuntimeError('Unsloth: GGUF conversion failed: Failed during loading/introspection of original script: Failed to execute module convert_hf_to_gguf_original_gguf_4iy7y2o2 from /home/ubuntu/.unsloth/llama.cpp/original_gguf_4iy7y2o2.py')"
+    }
+  ],
+  "gguf_dir": "/home/ubuntu/wild-gemma4-runs/wild-gemma4-e4b-full-20260514-220502/gguf",
+  "repo": "Alfaxad/wild-gemma-4-E4B-it-GGUF"
+}

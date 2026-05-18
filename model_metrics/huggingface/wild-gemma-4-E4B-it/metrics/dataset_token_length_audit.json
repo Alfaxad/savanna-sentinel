@@ -1,0 +1,11 @@
+{
+  "rows": 39284,
+  "text_token_max_without_image_tokens": 1754,
+  "text_token_p95_without_image_tokens": 1377,
+  "text_token_p99_without_image_tokens": 1653,
+  "image_count_max": 3,
+  "image_count_p95": 3,
+  "text_chars_max": 5583,
+  "chosen_training_max_length": 8192,
+  "note": "Token counts are text/chat-template tokens before visual patch tokens. max_length=8192 leaves room for up to three image frames."
+}

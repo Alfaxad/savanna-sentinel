@@ -1,0 +1,140 @@
+{
+  "direct": {
+    "overall": {
+      "rows": 120,
+      "blank_correct_rate": 0.0,
+      "blank_correct_n": 34,
+      "has_answer_rate": 0.0,
+      "has_answer_n": 14,
+      "has_evidence_rate": 0.0,
+      "has_evidence_n": 29,
+      "has_observed_rate": 0.0,
+      "has_observed_n": 29,
+      "has_tool_calls_rate": 0.0,
+      "has_tool_calls_n": 14,
+      "json_valid_rate": 0.9166666666666666,
+      "json_valid_n": 120,
+      "species_any_overlap_rate": 0.23529411764705882,
+      "species_any_overlap_n": 34,
+      "species_set_exact_rate": 0.23529411764705882,
+      "species_set_exact_n": 34,
+      "thinking_rate": 0.0,
+      "thinking_n": 120,
+      "mean_generation_chars": 760.9333333333333
+    },
+    "by_task": {
+      "phase1": {
+        "rows": 34,
+        "blank_correct_rate": 0.0,
+        "blank_correct_n": 34,
+        "json_valid_rate": 1.0,
+        "json_valid_n": 34,
+        "species_any_overlap_rate": 0.23529411764705882,
+        "species_any_overlap_n": 34,
+        "species_set_exact_rate": 0.23529411764705882,
+        "species_set_exact_n": 34,
+        "thinking_rate": 0.0,
+        "thinking_n": 34,
+        "mean_generation_chars": 540.9705882352941
+      },
+      "phase2": {
+        "rows": 33,
+        "json_valid_rate": 1.0,
+        "json_valid_n": 33,
+        "thinking_rate": 0.0,
+        "thinking_n": 33,
+        "mean_generation_chars": 251.3939393939394
+      },
+      "report": {
+        "rows": 29,
+        "has_evidence_rate": 0.0,
+        "has_evidence_n": 29,
+        "has_observed_rate": 0.0,
+        "has_observed_n": 29,
+        "json_valid_rate": 1.0,
+        "json_valid_n": 29,
+        "thinking_rate": 0.0,
+        "thinking_n": 29,
+        "mean_generation_chars": 1821.6896551724137
+      },
+      "tool": {
+        "rows": 24,
+        "has_answer_rate": 0.0,
+        "has_answer_n": 14,
+        "has_tool_calls_rate": 0.0,
+        "has_tool_calls_n": 14,
+        "json_valid_rate": 0.5833333333333334,
+        "json_valid_n": 24,
+        "thinking_rate": 0.0,
+        "thinking_n": 24,
+        "mean_generation_chars": 491.4166666666667
+      }
+    },
+    "predictions_path": "/home/ubuntu/wild-gemma4-runs/wild-gemma4-e4b-full-20260514-220502/metrics/predictions_finetuned_direct.jsonl"
+  },
+  "thinking": {
+    "overall": {
+      "rows": 24,
+      "blank_correct_rate": 0.0,
+      "blank_correct_n": 1,
+      "has_answer_rate": 0.0,
+      "has_answer_n": 2,
+      "has_tool_calls_rate": 0.0,
+      "has_tool_calls_n": 2,
+      "json_valid_rate": 0.375,
+      "json_valid_n": 24,
+      "species_any_overlap_rate": 1.0,
+      "species_any_overlap_n": 1,
+      "species_set_exact_rate": 1.0,
+      "species_set_exact_n": 1,
+      "thinking_rate": 1.0,
+      "thinking_n": 24,
+      "mean_generation_chars": 787.0
+    },
+    "by_task": {
+      "phase1": {
+        "rows": 6,
+        "blank_correct_rate": 0.0,
+        "blank_correct_n": 1,
+        "json_valid_rate": 0.16666666666666666,
+        "json_valid_n": 6,
+        "species_any_overlap_rate": 1.0,
+        "species_any_overlap_n": 1,
+        "species_set_exact_rate": 1.0,
+        "species_set_exact_n": 1,
+        "thinking_rate": 1.0,
+        "thinking_n": 6,
+        "mean_generation_chars": 976.5
+      },
+      "phase2": {
+        "rows": 6,
+        "json_valid_rate": 1.0,
+        "json_valid_n": 6,
+        "thinking_rate": 1.0,
+        "thinking_n": 6,
+        "mean_generation_chars": 321.5
+      },
+      "report": {
+        "rows": 6,
+        "json_valid_rate": 0.0,
+        "json_valid_n": 6,
+        "thinking_rate": 1.0,
+        "thinking_n": 6,
+        "mean_generation_chars": 1798.1666666666667
+      },
+      "tool": {
+        "rows": 6,
+        "has_answer_rate": 0.0,
+        "has_answer_n": 2,
+        "has_tool_calls_rate": 0.0,
+        "has_tool_calls_n": 2,
+        "json_valid_rate": 0.3333333333333333,
+        "json_valid_n": 6,
+        "thinking_rate": 1.0,
+        "thinking_n": 6,
+        "mean_generation_chars": 51.833333333333336
+      }
+    },
+    "predictions_path": "/home/ubuntu/wild-gemma4-runs/wild-gemma4-e4b-full-20260514-220502/metrics/predictions_finetuned_thinking.jsonl"
+  }
+}

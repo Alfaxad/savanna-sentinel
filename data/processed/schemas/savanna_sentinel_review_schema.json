@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "savanna_sentinel_review_v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "capture_event_id",
+    "decision",
+    "review_needed",
+    "priority",
+    "reasons"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "savanna_sentinel_review_v1"
+    },
+    "capture_event_id": {
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "accept",
+        "review"
+      ]
+    },
+    "review_needed": {
+      "type": "boolean"
+    },
+    "priority": {
+      "enum": [
+        "none",
+        "medium",
+        "high"
+      ]
+    },
+    "reasons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

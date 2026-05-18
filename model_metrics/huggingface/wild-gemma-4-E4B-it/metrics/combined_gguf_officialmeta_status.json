@@ -1,0 +1,11 @@
+{
+  "stage": "combined_gguf_officialmeta_created",
+  "path": "/home/ubuntu/wild-gemma4-runs/wild-gemma4-e4b-full-20260514-220502/gguf_manual_lora/wild-gemma-4-E4B-it-manual.Q4_K_M-combined-mm-officialmeta.gguf",
+  "exists": true,
+  "bytes": 6325644864,
+  "source_text": "/home/ubuntu/wild-gemma4-runs/wild-gemma4-e4b-full-20260514-220502/gguf_manual_lora/wild-gemma-4-E4B-it-manual.Q4_K_M.gguf",
+  "source_mmproj": "/home/ubuntu/wild-gemma4-runs/wild-gemma4-e4b-full-20260514-220502/gguf_manual_lora/wild-gemma-4-E4B-it-manual.BF16-mmproj.gguf",
+  "source_metadata": "/home/ubuntu/official_gemma4_e4b_blob.gguf",
+  "log": "/home/ubuntu/combine_manual_lora_gguf_officialmeta.log",
+  "updated_at": "2026-05-15T20:24:49Z"
+}

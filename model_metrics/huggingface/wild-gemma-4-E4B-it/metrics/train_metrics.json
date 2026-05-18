@@ -1,0 +1,10 @@
+{
+  "train_runtime": 35587.6645,
+  "train_samples_per_second": 1.085,
+  "train_steps_per_second": 0.136,
+  "total_flos": 1.2050782354098115e+18,
+  "train_loss": 0.007153459695930532,
+  "epoch": 1.0,
+  "wall_runtime_seconds": 35592.46585512161,
+  "cuda_peak_reserved_gb": 13.498
+}

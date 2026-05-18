@@ -1,0 +1,29 @@
+{
+  "merged": "/home/ubuntu/wild-gemma4-runs/wild-gemma4-e4b-full-20260514-220502/merged_model_manual_lora",
+  "results": [
+    {
+      "thinking": false,
+      "len": 512,
+      "score": {
+        "json_valid": true,
+        "chars": 512,
+        "blank_correct": false,
+        "species_set_exact": true,
+        "species_any_overlap": true
+      },
+      "prefix": "```json\n{\n  \"event_id\": \"ASG00003m8\",\n  \"location\": \"Serengeti camera site G03\",\n  \"datetime\": \"2010-08-22T10:54:16\",\n  \"event_type\": \"animal_detected\",\n  \"animal_details\": [\n    {\n      \"species\": \"Giraffe\",\n      \"count\": 1,\n      \"behaviors\": [\n        \"walking\"\n      ],\n      \"young_present\": false,\n      \"confidence\": 0.8\n    }\n  ],\n  \"event_summary\": \"One Giraffe was detected walking through the dry grass environment.\",\n  \"metadata\": {\n    \"frame_count\": 3,\n    \"frame_order\": \"chronological\"\n  }\n}\n```"
+    },
+    {
+      "thinking": true,
+      "len": 337,
+      "score": {
+        "json_valid": true,
+        "chars": 337,
+        "blank_correct": false,
+        "species_set_exact": true,
+        "species_any_overlap": true
+      },
+      "prefix": "```json\n{\n  \"capture_event_id\": \"ASG00003m8\",\n  \"location\": \"Serengeti camera site G03\",\n  \"local_datetime\": \"2010-08-22T10:54:16\",\n  \"event_type\": \"blank\",\n  \"details\": {\n    \"animals_detected\": 0,\n    \"behaviors_detected\": [],\n    \"confidence_score\": 1.0,\n    \"notes\": \"No animals were visible in any of the captured frames.\"\n  }\n}\n```"
+    }
+  ]
+}
